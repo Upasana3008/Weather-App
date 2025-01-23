@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="search">
+      <input type="text" name="text" id="text" placeholder=" Enter Your Location" spellcheck="false">
+      <button><img src="Assets/search.png"></button>
+    </div>
+    <div class="error">
+      <p>Invalid City Name</p>
+    </div>
+    <div class="weather">
+      <img src="Assets/clear.png" class="weather-icon">
+      <h1 class="temp">22°C</h1>
+      <h2 class="city">New York</h2>
+      <h3 class="time">Friday Sep 16 14:19:55 IST 2024</h3>
+      <div class="day-type">
+        <div class="col">
+          <img src="Assets/humidity.png">
+          <div>
+            <p class="humidity">45%</p>
+            <p>Humidity</p>
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="Assets/wind.png">
+          <div>
+            <p class="wind">10 Km/hr</p>
+            <p>Wind Speed</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
